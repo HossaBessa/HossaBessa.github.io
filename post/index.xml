@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hossa Bessa</title>
-    <link>https://example.com/post/</link>
+    <link>https://hossabessa.com/post/</link>
     <description>Recent content in Posts on Hossa Bessa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Co to jest DAO?</title>
-      <link>https://example.com/post/co_to_jest_dao/</link>
+      <link>https://hossabessa.com/post/co_to_jest_dao/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/co_to_jest_dao/</guid>
+      <guid>https://hossabessa.com/post/co_to_jest_dao/</guid>
       <description>Co to jest DAO? DAO -  Decentralized Autonomous Organizations, czyli zdecentralizowana autonomiczna organizacja  jest to organizacja działająca zgodnie z regułami zakodowanymi jako programy komputerowe zwane inteligentnymi kontraktami (smartkontrakty).
 Co to jest smartkontrakt? Jest to samowykonalna umowa, w której warunki umowy między kupującym a sprzedającym są zapisywane bezpośrednio w wierszach kodu. Kod i zawarte w nim umowy istnieją w rozproszonej, zdecentralizowanej sieci blockchain.
  DAO to kod komputerowy - w formie smartkontraku działającego w sieci Blockchain</description>
@@ -20,10 +20,10 @@ Co to jest smartkontrakt? Jest to samowykonalna umowa, w której warunki umowy m
     
     <item>
       <title>Sytuacja na rynku kryptowalut</title>
-      <link>https://example.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</link>
+      <link>https://hossabessa.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</guid>
+      <guid>https://hossabessa.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</guid>
       <description>Sytuacja na rynku kryptowalut początek lipca 2021 Początek lipca 2021 przyniósł oczekiwane odbicie na rynku Bitcoina, choć patrząc w okresie miesiąca rynek nadal wydaje się być w trendzie bocznym. Na obecną sytuację największy wpływ miały dwie ważne informacje docierające do nas ze Stanów Zjednoczonych.
   Pierwsza dotyczy spotkania szefa Coinbase&amp;rsquo;a Briana Armstronga z szefem amerykańskiej rezerwy federalnej Jerome Powellem. Na spotkaniu obecny był również Paul Ryan, były polityk z ramienia parti republikańskiej.</description>
     </item>
