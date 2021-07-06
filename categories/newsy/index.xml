@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>newsy on Hossa Bessa</title>
+    <link>https://example.com/categories/newsy/</link>
+    <description>Recent content in newsy on Hossa Bessa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/newsy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sytuacja na rynku kryptowalut</title>
+      <link>https://example.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</guid>
+      <description>Sytuacja na rynku kryptowalut początek lipca 2021 Początek lipca 2021 przyniósł oczekiwane odbicie na rynku Bitcoina, choć patrząc w okresie miesiąca rynek nadal wydaje się być w trendzie bocznym. Na obecną sytuację największy wpływ miały dwie ważne informacje docierające do nas ze Stanów Zjednoczonych.
+  Pierwsza dotyczy spotkania szefa Coinbase&amp;rsquo;a Briana Armstronga z szefem amerykańskiej rezerwy federalnej Jerome Powellem. Na spotkaniu obecny był również Paul Ryan, były polityk z ramienia parti republikańskiej.</description>
+    </item>
+    
+  </channel>
+</rss>

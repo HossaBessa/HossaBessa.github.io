@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>informacje on Hossa Bessa</title>
+    <link>https://example.com/categories/informacje/</link>
+    <description>Recent content in informacje on Hossa Bessa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/informacje/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sytuacja na rynku kryptowalut</title>
+      <link>https://example.com/post/sytuacja/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/sytuacja/</guid>
+      <description>Początek lipca 2021 przyniósł oczekiwane odbicie na rynku Bitcoina, choć w okresie miesiąca rynek nadal wydaje się być w trendzie bocznym. Na obecną sytuację największy wpływ miały dwie ważne informacje docierające do nas ze Stanów Zjednoczonych.
+Pierwsza dotyczy spotkania szefa Coinbase&amp;rsquo;a Briana Armstronga z szefem amerykańskiej rezerwy federalnej Jerome Powellem. Pomimo faktu, że spotkanie dotyczyło głównie CBDC - czyli nowej waluty banku centralnego Stanów Zjednoczonych, to dobre relacje spółki Coinbase z FED&amp;rsquo;em napewno przyczyniają się do rozładowania negatywnych emocji dotyczących wpływu kryptowalut na monopol banku centralnego do emisji pieniądza.</description>
+    </item>
+    
+  </channel>
+</rss>

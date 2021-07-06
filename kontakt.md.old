@@ -1,0 +1,35 @@
+---
+title: "Kontakt"
+description: "Hugo, the world's fastest framework for building websites"
+date: 2019-02-30
+aliases: ["kontakt"]
+author: "Hugo Authors"
+---
+
+{{< rawhtml >}}
+
+<iframe name="dummyframe" id="dummyframe" style="display: none;">
+
+</iframe>
+
+<script>
+</script>
+
+<div class="content">
+    <p class="mb-2">Napisz do nas wypełniając formularz</p>
+    <form id="contact-form" name=contact action="https://docs.google.com/forms/d/e/1FAIpQLScrgozwbfaItm4hMwZA7z_J2GeFjXHEI_-ZDuajMHp2ugcQdg/formResponse" target='dummyframe' onsubmit="alert('hello')">
+    <div class="mb-4">
+         <input type=text placeholder="Imię" name="entry.1992685104" class="w-full p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-warmgray-700 dark:border-warmgray-700 dark:focus:bg-warmgray-800" required>
+    </div>
+    <div class="mb-4">
+        <input type=text placeholder="Email" name="entry.2023094081" class="w-full p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-warmgray-700 dark:border-warmgray-700 dark:focus:bg-warmgray-800" required>
+    </div>
+    <div class="mb-4">
+        <textarea rows=5 cols=30 placeholder="Wiadomość" name="entry.2071262931" class="w-full p-4 bg-gray-200 border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-warmgray-700 dark:border-warmgray-700 dark:focus:bg-warmgray-800" required></textarea>
+    </div>
+    <input type=submit value="Wyślij" id="submitBtn" class="w-full button duration-100 py-2 bg-gray-800 text-white cursor-pointer transition-colors hover:bg-gray-600" >
+    </form>
+</div>
+<p id="contact-form-status"></p>
+
+{{< /rawhtml >}}
