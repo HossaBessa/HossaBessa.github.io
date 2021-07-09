@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language><atom:link href="https://hossabessa.com/archives/2021/07/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Co to jest Cardano?</title>
+      <link>https://hossabessa.com/post/co_to_jest_cardano/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hossabessa.com/post/co_to_jest_cardano/</guid>
+      <description>Co to jest Cardano? Część pierwsza.   Cardano to bardzo innowacyjny blockchain, założony w 2015 roku przez jednego z twórców Ethereum Charlesa Hoskinsona. Premiera Cardano rozpoczeła się na dobre w 2017 roku. Cardano jest Blockchainem opartym na algorytmie konsensusu Proof of Stake. W przeciwieństwie do Ethereum, które obecnie posługuje się mechanizmem Proof of Work. Oznacza to, że do potwierdzania transakcji nie potrzeba olbrzymich ilości energii elektrycznej jak to ma miejsce w przypadku Proof of Work.</description>
+    </item>
+    
+    <item>
       <title>Co to jest DAO?</title>
       <link>https://hossabessa.com/post/co_to_jest_dao/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>

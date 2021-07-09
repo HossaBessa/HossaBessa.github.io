@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kryptowaluty on Hossa Bessa</title>
+    <link>https://hossabessa.com/tags/kryptowaluty/</link>
+    <description>Recent content in kryptowaluty on Hossa Bessa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/tags/kryptowaluty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co to jest Cardano?</title>
+      <link>https://hossabessa.com/post/co_to_jest_cardano/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hossabessa.com/post/co_to_jest_cardano/</guid>
+      <description>Co to jest Cardano? Część pierwsza.   Cardano to bardzo innowacyjny blockchain, założony w 2015 roku przez jednego z twórców Ethereum Charlesa Hoskinsona. Premiera Cardano rozpoczeła się na dobre w 2017 roku. Cardano jest Blockchainem opartym na algorytmie konsensusu Proof of Stake. W przeciwieństwie do Ethereum, które obecnie posługuje się mechanizmem Proof of Work. Oznacza to, że do potwierdzania transakcji nie potrzeba olbrzymich ilości energii elektrycznej jak to ma miejsce w przypadku Proof of Work.</description>
+    </item>
+    
+  </channel>
+</rss>
