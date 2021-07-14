@@ -6,7 +6,17 @@
     <description>Recent content on Hossa Bessa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Porównanie wycen Uniswap, Sushiswap, Coinbase</title>
+      <link>https://hossabessa.com/post/wycena_uniswap_sushiswap_coinbase/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hossabessa.com/post/wycena_uniswap_sushiswap_coinbase/</guid>
+      <description>Porównanie wycen giełd kryptowalutowych Uniswap, Sushiswap i Coinbase Wstęp Coinbase to notowane na giełdzie Nasdaq przedsiębiorstwo operujące jedną z największych zcentralizowanych giełd z branży krypto. Uniswap jak i Sushiswap przedsiębiorstwami w klasycznym rozumieniu kodeksu spółek handlowych nie są.
+Zarówno Uniswap jak i Sushiswap to protokoły zapewniające płynność i pozwalające na zautomatyzowany handel tokenami ERC-20 z Ethereum. Mówiąc inaczej, są to zdecentralizowane automatyczne giełdy działające na blockchainie Ethereum, w skrócie DEX - (decentralised exchange).</description>
+    </item>
+    
     <item>
       <title>Co to jest Cardano?</title>
       <link>https://hossabessa.com/post/co_to_jest_cardano/</link>
