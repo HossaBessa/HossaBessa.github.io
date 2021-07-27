@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Hossa Bessa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Korelacja wybranych spółek branży krypto oraz Axie Infinity</title>
+      <link>https://hossabessa.com/post/korelacja_axie_infinity/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hossabessa.com/post/korelacja_axie_infinity/</guid>
+      <description>Korelacja wybranych spółek branży krypto oraz tokenów gry Axie Infinity Wstęp Canaan Inc oraz Riot Blockchain to dwie spółki notowane na giełdzie Nasdaq, których działalność związana jest z miningiem Bitcoina. Canaan to producent specjalistycznych urządzeń do wysokowydajnych obliczeń - zwanych ASIC (application-specific integrated circuit), stosowanych m.in. w obliczeniach zabezpieczających sieć Bitcoina, zwanych również w języku polskim jako kopanie Bitcoina (Bitcoin mining). Riot Blockchain to spółka miningowa wspieraniejąca blockchain Bitcoina poprzez kopanie i zabezpieczanie sieci na dużą skalę w Stanach Zjednoczonych, spółka nastawiona jest na redukcę emisji gazów cieplarnianych i jak najszersze wykorzystanie źródeł energii odnawialnej.</description>
+    </item>
+    
     <item>
       <title>Porównanie wyceny Uniswap, Sushiswap, Coinbase</title>
       <link>https://hossabessa.com/post/wycena_uniswap_sushiswap_coinbase/</link>
@@ -39,10 +48,10 @@ Co to jest smartkontrakt? Jest to samowykonująca się umowa, w której warunki 
     
     <item>
       <title>Sytuacja na rynku kryptowalut</title>
-      <link>https://hossabessa.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</link>
+      <link>https://hossabessa.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://hossabessa.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021-copy/</guid>
+      <guid>https://hossabessa.com/post/sytuacja_kryptowaluty_lipiec_poczatek_2021/</guid>
       <description>Sytuacja na rynku kryptowalut początek lipca 2021 Początek lipca 2021 przyniósł oczekiwane odbicie na rynku Bitcoina, choć patrząc w okresie miesiąca rynek nadal wydaje się być w trendzie bocznym. Na obecną sytuację największy wpływ miały dwie ważne informacje docierające do nas ze Stanów Zjednoczonych.
   Pierwsza dotyczy spotkania szefa Coinbase&amp;rsquo;a Briana Armstronga z szefem amerykańskiej rezerwy federalnej Jerome Powellem. Na spotkaniu obecny był również Paul Ryan, były polityk z ramienia parti republikańskiej.</description>
     </item>
