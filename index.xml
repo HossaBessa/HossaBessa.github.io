@@ -6,7 +6,16 @@
     <description>Recent content on Hossa Bessa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rożnice pomiędzy Cardano a Polkadot</title>
+      <link>https://hossabessa.com/post/cardano_a_polkadot_r%C3%B3%C5%BCnice/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hossabessa.com/post/cardano_a_polkadot_r%C3%B3%C5%BCnice/</guid>
+      <description>Porównanie Cardano i Polkadot oraz analiza zmian na Github Wstęp Blockchain trzeciej generacji. Gdy mówimy o sieciach Blockchain trzeciej generacji to najczęściej na myśl przychodzą właśnie Cardano lub Polkadot. Ale czym jest sieć trzeciej generacji, i co należy przez to rozumieć? Klasyczną siecią pierwszej generacji to Bitcoin. Za sieć drugiej generacji można uznać Ethereum z algorytmem consesusu opartym na Proof of Work. Charakterystyczną cechą sieci trzeciej generacji jest stosowanie algorytmu Proof of Stake do potwierdzania transakcji.</description>
+    </item>
+    
     <item>
       <title>Korelacja wybranych spółek branży krypto oraz Axie Infinity</title>
       <link>https://hossabessa.com/post/korelacja_axie_infinity/</link>
