@@ -13,12 +13,12 @@
   gtag('config', 'G-X91DT6MPHX');
 </script>
 
-<title>Hossa Bessa | Korelacja wybranych spółek branży krypto oraz Axie Infinity</title>
+<title>Hossa Bessa | Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     
-    <meta name="description" content="Analiza korelacji spółek Riot Blockchain,Coinbase, Canaan oraz tokenów gry Axie Infinity przy pomocy języka Python" />
-    <meta name="keywords" content="Analiza Korelacji, Korelacja, Riot Blockchain, Coinbase, Canaan, Axie Infinity, Mapa Cieplna, Python, Bitcoin, Ethereum" />
+    <meta name="description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN wspomaganej Principal Component Analisys" />
+    <meta name="keywords" content="Blockchain, Python, Uczenie Maszynowe, HDBSCAN, PCA, Principal Component Analysis, Fazy Rynkowe, Bitcoin, Kryptowaluty" />
     
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -27,7 +27,7 @@
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Hossa Bessa | Korelacja wybranych spółek branży krypto oraz Axie Infinity" />
+    <meta property="og:title" content="Hossa Bessa | Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA" />
     
     
         
@@ -40,26 +40,26 @@
 
 
 <meta property="og:site_name" content="Hossa Bessa">
-<meta property="og:description" content="Analiza korelacji spółek Riot Blockchain,Coinbase, Canaan oraz tokenów gry Axie Infinity przy pomocy języka Python">
-<meta property="og:url" content="https://hossabessa.com/post/korelacja_axie_infinity/">
+<meta property="og:description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN wspomaganej Principal Component Analisys">
+<meta property="og:url" content="https://hossabessa.com/post/analiza_rynkowa_kryptowalut/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="">
 
-<link rel="canonical" href="https://hossabessa.com/post/korelacja_axie_infinity/">
+<link rel="canonical" href="https://hossabessa.com/post/analiza_rynkowa_kryptowalut/">
 
-<meta name="twitter:description" content="Analiza korelacji spółek Riot Blockchain,Coinbase, Canaan oraz tokenów gry Axie Infinity przy pomocy języka Python">
-<meta property="article:published_time" content="2021-07-27T00:00:00&#43;00:00">
-<meta property="article:updated_time" content="2021-07-27T00:00:00&#43;00:00">
+<meta name="twitter:description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN wspomaganej Principal Component Analisys">
+<meta property="article:published_time" content="2021-09-07T00:00:00&#43;00:00">
+<meta property="article:updated_time" content="2021-09-07T00:00:00&#43;00:00">
 
 
 
 
 
     
-<meta property="og:image" content="https://hossabessa.com/img/Front_Korelacja_Canaan_Coinbase_Axie_Riot.png">
-<meta property="og:image:url" content="https://hossabessa.com/img/Front_Korelacja_Canaan_Coinbase_Axie_Riot.png">
+<meta property="og:image" content="https://hossabessa.com/img/First_Page.jpg">
+<meta property="og:image:url" content="https://hossabessa.com/img/First_Page.jpg">
     
 
     
@@ -158,11 +158,11 @@
             <div class="lg:mx-5">
 <div class="grid grid-cols-3 gap-4">
     <div class="bg-white col-span-3 lg:col-span-2 p-5 dark:bg-warmgray-900 dark:text-white">
-        <h1 class="title text-4xl">Korelacja wybranych spółek branży krypto oraz Axie Infinity</h1>
+        <h1 class="title text-4xl">Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</h1>
         <aside id="meta">
             <div>
                 <section>
-                    <h4 id="date"><span class="icon-access_time mr-1"></span>2021/07/27 </h4>
+                    <h4 id="date"><span class="icon-access_time mr-1"></span>2021/09/07 </h4>
                 </section>
                 
                 <div id="tags">
@@ -170,112 +170,175 @@
                     
                     <a href="https://hossabessa.com/tags/analiza">analiza</a> |
                     
+                    <a href="https://hossabessa.com/tags/kryptowaluty">kryptowaluty</a> |
+                    
+                    <a href="https://hossabessa.com/tags/algorytmy">algorytmy</a> |
+                    
                 </div>
                 
             </div>
         </aside>
         
-        <img class="py-4" src="https://hossabessa.com/img/Front_Korelacja_Canaan_Coinbase_Axie_Riot.png">
+        <img class="py-4" src="https://hossabessa.com/img/First_Page.jpg">
         
-        <div class="content mt-5"><h2 id="korelacja-wybranych-spółek-branży-krypto-oraz-tokenów-gry-axie-infinity">Korelacja wybranych spółek branży krypto oraz tokenów gry Axie Infinity</h2>
+        <div class="content mt-5"><h2 id="klasyfikacja-faz-rynku-kryptowalut-metodami-hdbscan-i-pca">Klasyfikacja faz rynku kryptowalut metodami HDBSCAN i PCA</h2>
 <h3 id="wstęp">Wstęp</h3>
-<p>Canaan Inc oraz Riot Blockchain to dwie spółki notowane na giełdzie Nasdaq, których działalność związana jest z miningiem Bitcoina. Canaan to producent specjalistycznych urządzeń do wysokowydajnych obliczeń - zwanych ASIC (application-specific integrated circuit), stosowanych m.in. w obliczeniach zabezpieczających sieć Bitcoina, zwanych również w języku polskim jako kopanie Bitcoina (Bitcoin mining).
-Riot Blockchain to spółka miningowa wspieraniejąca blockchain Bitcoina poprzez kopanie i zabezpieczanie sieci na dużą skalę w Stanach Zjednoczonych, spółka nastawiona jest na redukcę emisji gazów cieplarnianych i jak najszersze wykorzystanie źródeł energii odnawialnej.
-Coinbase to notowana na amerykańskiej giełdzie Nasdaq, spółka świadcząca usługi wymiany kryptowalut, tzw. CEX (centralized exchange).
-Axie Infinity to internetowa gra wideo oparta na tokenach NFT (Non-Fungible Tokens) stworzona przez wietnamskie studio Sky Mavis, która wykorzystuje kryptowaluty na bazie protokołu Ethereum o nazwie AXS i SLP.</p>
+<p>Analitycy rynkowi zaprzęgają rozmaite metody statystyczne do klasyfikacji różnych faz rynkowych w celu opracowania strategii inwestycyjnych dla rozmaitych aktywów finansowych.
+Traderzy giełdowi zazwyczaj posiadają cały arsenał strategii finansowych (wzrost, spłaszczenie, motyle), które stosują w zależności od aktualnego reżimu stóp procentowych (czyli sytuacji, w której Bank Centralny łagodzi lub zaostrza politykę monetarną). W celu identyfikacji aktualnej polityki stóp procentowych, analitycy finansowi zazwyczaj grupują różne sygnały finansowe, a następnie porównują je z szeregami czasowymi aktywów finansowych.
+Uważamy, że podobną analizę można zastosować do zmian kursów kryptoaktywów w celu określenia aktualnej fazy zmienności kursów rynkowych.</p>
+
+</br>
+
+<p>Rys 1. Klasyfikacja zmian stóp procentowych w Eurolandzie, oraz najważniejsze wydarzenia z nimi związane.
+<img src="/img/Interest_rates_regimes_1.jpg" alt="Fazy zmian stóp procentowych w Eurolandzie">
+Źródło: Lemus G. QMA FREXIT observations, 2017, Arbor Research &amp; Trading UK Limited</p>
+
+</br>
+
 <h3 id="cel">Cel</h3>
-<p>Celem niniejszego artykułu jest porównanie związków pomiędzy wybranymi podmiotami zajmującymi się m.in. miningiem, działalnością giełdową oraz tokenu gry Axie Infinity.
-Jest to też próba określenia jak mocno skorelowane pozostają ze sobą wybrane podmioty branży kryptowalutowej, pod kątem dziennych procentowych stóp zwrotu, oraz odpowiedzi na pytanie czy w badanym okresie, dane podmioty zachowywały się podobnie.</p>
+<p>Celem opracowania jest próba sklasyfikowania różnych faz rynkowych za pomocą rygorystycznej metody uczenia maszynowego nienadzorowanego- HDBSCAN (unsupervised machine learning) i PCA - Principal Component Analisys, oraz określenia obecnie występującej fazy dla grupy kryptoaktywów.</p>
 <h3 id="metodyka">Metodyka</h3>
-<p>Do badań została wybrana grupa celowa składająca się z trzech spółek notowanych na klasycznych giełdach papierów wartościowych oraz pojedynczego tokenu notowanego głównie na scentralizowanych giełdach kryptowalutowych (CEX) jak również na zautomatyzowanych giełdach kryptowalutowych AMM, takich jak Uniswap.</p>
-<p>Przedział czasowy ustalony został na okres pomiędzy 04.04.2021 a 14.07.2021. Okres ten obejmuja zarówno trend wzrostowy z początku roku, jak i trend spadkowy z drugiej połowy 2021 roku.</p>
-<p>W poniższej tabeli zostały przedstawione podstawowe dane podmiotów biorących udział w badaniach.</p>
+<p>Pierwsza część tego artykułu została wykonana metodą opisową. Druga część, to zastosowanie metody uczenia maszynowego HDBSCAN do klasyfikacji faz rynkowych określających stopień zmienności kursów. HDBSCAN wykorzystuje uczenie maszynowe nienadzorowane do znajdowania klastrów lub gęstych regionów zbioru danych.
+Poprzez uczenie nienadzorowane HDBSCAN próbuje odkryć wzorce w zestawie pól wejściowych. Rekordy są pogrupowane w taki sposób, że te znajdujące się w tej samej grupie lub klastrze są do siebie podobne, ale rekordy w różnych grupach pozostają odmienne. Algorytm HDBSCAN postrzega klastry jako obszary o dużej gęstości oddzielone obszarami o małej gęstości. Ze względu na ten dość ogólny pogląd, gromady znalezione przez HDBSCAN mogą mieć dowolny kształt, w przeciwieństwie do k-średnich, które zakładają, że gromady mają kształt wypukły. Zaznaczono również punkty odstające, które leżą samotnie w regionach o niskiej gęstości. W przeciwieństwie do prostej metody grupowania jaką jest metoda k-średnich, w HDBSCAN nie trzeba z góry zakładać liczby grup. Należy jednak określić minimalną wielkość klastra.</p>
+<p>Dodatkową metodą pomocniczą wykorzystaną do przeprowadzenia badań jest PCA - Principal Component Analysis. PCA jest metodą statystyczną stosowaną do zmniejszenia liczby zmiennych w zestawie danych. Jest to metoda redukcji wymiarów, która jest często stosowana do zmniejszenia wymiarowości dużych zestawów danych, przekształcając duży zestaw zmiennych w mniejszy, który nadal zawiera większość informacji jak w dużym zestawie. Odbywa się to poprzez łączenie wysoce skorelowanych zmiennych razem.
+Zmniejszenie liczby zmiennych w zestawie danych naturalnie odbywa się kosztem dokładności, ale cała sztuka w redukcji wymiarowości polega na oddanie części dokładności w zamian za prostotę. Ponieważ mniejsze zestawy danych są łatwiejsze do eksploracji i wizualizacji oraz znacznie ułatwiają i przyspieszają analizę danych dla algorytmów uczenia maszynowego bez dodatkowych zmiennych do przetworzenia.</p>
+
+</br>
+
+<p>Rys 2. Kod źródłowy analizy faz zmienności rynku metodą HDBSCAN, wykonany w języku w Python oraz środowisku Jupyter Lab
+<img src="/img/Hdbscan_PCA_13_1.jpg" alt="Kod źródłowy do analizy HDBSCAN faz zmienności rynku">
+<img src="/img/Hdbscan_PCA_13_2.jpg" alt="Kod źródłowy do analizy HDBSCAN faz zmienności rynku">
+<img src="/img/Hdbscan_PCA_13_3.jpg" alt="Kod źródłowy do analizy HDBSCAN faz zmienności rynku">
+Źródło: Opracowanie własne</p>
+<h3 id="zakres-czasowy">Zakres czasowy</h3>
+<p>Niektóre kryptoaktywa posiadają już długą historię swojego istnienia, inne są relatywnie nowe. Ze względu na konieczność pozyskania danych z tego samego okresu dla wielu walorów, zdecydowano się na ograniczenie analizy do około roku. Zakres czasowy obejmuje okres od 2020-09-17 do 2021-09-06.</p>
+<h3 id="grupa-celowa">Grupa celowa</h3>
+<p>Do grupy celowej zaliczono 13 następujących kryptoaktywów:</p>
+<p>Poniższa tabela przedstawia dobrane kryptoaktywa oraz ich kapitalizację rynkową na dzień pozyskania danych</p>
 <table>
 <thead>
 <tr>
-<th>Dane w mld USD</th>
-<th>Działalność</th>
-<th>Wycena rynkowa</th>
+<th>Lp.</th>
+<th>Protokół</th>
+<th>Kapitalizacja w mld USD</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Coinbase</td>
-<td>Zcentralizowana giełda krypto</td>
-<td>46.90</td>
+<td>1</td>
+<td>Bitcoin</td>
+<td>816.12</td>
 </tr>
 <tr>
-<td>Canaan</td>
-<td>Kopanie Bitcoina</td>
-<td>0.98</td>
+<td>2</td>
+<td>Ethereum</td>
+<td>357.63</td>
 </tr>
 <tr>
-<td>Riot Blockchain</td>
-<td>Kopanie Bitcoina</td>
-<td>2.36</td>
+<td>3</td>
+<td>Cardano</td>
+<td>70.51</td>
 </tr>
 <tr>
-<td>Axie Infinity</td>
-<td>Gra krypto</td>
-<td>2.30</td>
+<td>4</td>
+<td>Solana</td>
+<td>42.31</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Polkadot</td>
+<td>30.83</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Avalanche</td>
+<td>15.19</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Uniswap</td>
+<td>12.92</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Chainlink</td>
+<td>10.89</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Algorand</td>
+<td>10.30</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Polygon</td>
+<td>8.06</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Monero</td>
+<td>4.22</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Neo</td>
+<td>2.98</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Enjin-coin</td>
+<td>1.15</td>
 </tr>
 </tbody>
 </table>
-<p>Następnie, w celu automatyzacji procesu analizy, napisano program w języku Python składający się z kilku funkcji, z wykorzystaniem znanych bibliotek ekosystemu data science, takich jak numpy, pandas, scipy, matplotlib i inne. Celem programu było zaciągnięcie z Internetu danych dotyczących kursów analizowanych podmiotów, ich obróbka i oczyszczenie, przetworzenie i ich prezentacja. W ten sposób cały proces staje się powtarzalny, oraz możliwy do wykonania i uaktualnienia w kolejnych okresach czasu.</p>
-<p>Jednym z pierwszych napotkanych problemów było pozyskanie jednolitych danych. W trakcie badań, okazało się, że tokeny gry Axie Infinity nie figurują w bazie danych serwisu stooq.com, więc zdecydowano, że dane zostaną pozyskane z serwisu coingecko.com. Z uwagi na odrębne sposoby prezentacji danych pomiędzy stooq.com a coingecko.com, zostały napisane dodatkowe funkcje progamu w celu ujednolicenia dostępnych danych.</p>
-<p>Po uzyskaniu danych, obliczono macierz współczynników korelacji Pearsona. Czyli macierz, której elementy stanowią wartości współczynników korelacji dla odpowiednich par zmiennych, stanowiących w tym przypadku dzienne stopy zwrotu dla poszczególnych podmiotów. Obliczona macież korelacji została zaprezentowan za pomocą mapy cieplnej (heatmap).</p>
+<p>Źródło: Opracowanie własne</p>
+<h4 id="wyniki">Wyniki</h4>
+<p>Identyfikacja zmian faz zmienności kursów kryptoaktywów.</p>
+<p>W wyniku analizy skupień metodą HDBSCAN i PCA uzyskano następujący ciąg liczb oznaczających poszczególne klastry.
+{-1, 0, 1, 2, 3, 4, 5, 6}</p>
+<p>Znaleziono 7 klastrów oraz szereg danych odstających nie przyporządkowanych do żadnych klastrów opisanych za pomocą liczby -1. Na wykresie są one oznaczone kolorem jasno szarym.</p>
 
 </br>
 
-<p>Współczynnik korelacji r zawiera się pomiędzy &lt;-1,1&gt;, gdzie wartości -1 oraz 1 wskazują doskonałą korelacje a 0 jej brak.</p>
-<p>Siła korelacji dla wartości bezwzględnej |r| (poziom zależności)</p>
-<ul>
-<li>&lt; 0,2 – brak</li>
-<li>0,2 – 0,4 – słaba</li>
-<li>0,4 – 0,7 – umiarkowana</li>
-<li>0,7 – 0,9 – dość silna</li>
-<li>0,9 – bardzo silna</li>
-</ul>
-
-</br>
-
-<p>Rys 1. Kod źródłowy analizy, wykonany w języku w Python oraz środowisku Jupyter Lab
-<img src="/img/Korelacja_1_2021-07-27_15-56.jpg" alt="Kod źródłowy analizy napisany w języku Python część pierwsza">
-<img src="/img/Korelacja_2_2021-07-27_15-57.jpg" alt="Kod źródłowy analizy napisany w języku Python część druga">
-<img src="/img/Korelacja_3_2021-07-27_15-59.jpg" alt="Kod źródłowy analizy napisany w języku Python część trzecia">
+<p>Rys 3. Klastry znalezione metodą HDBSCAN
+<img src="/img/Hdbscan_clusters_crypto_quotes.jpg" alt="Klastry znalezione metodą HDBSCAN">
 Źródło: Opracowanie własne</p>
 
 </br>
 
-<h3 id="wyniki">Wyniki</h3>
-<p>Wyniki badań pokazują, że w analizowanym okresie nie było silnego związku pomiędzy dziennymi stopami zwrotu wybranych podmiotów.</p>
-<p>Mapa cieplna pokazuje, że istnieje umiarkowana korelacja pomiędzy spółkami Riot Blockchain i Canaan Inc, co jest zrozumiałe ze względu na komplementarny zakres działalności.</p>
+<p>Bardzo istotne jest zauważenie, że analiza skupień nie bierze pod uwagę czasu. Niektóre klastry pobierają dane z różnych okresów, więc musimy pamiętać, że nasza analiza usunęła z danych wymiar czasowy. To zachowanie można przywrócić dodając go z powrotem poprzez rzutowanie klastrów na oś czasową poszczególnych kryptoaktywów.</p>
 
 </br>
 
-<p>Rys 2. Mapa cieplna macierzy współczynników korelacji wybranych podmiotów branży kryptoaktywów
-<img src="/img/Korelacja_mapa_cieplna.jpg" alt="Macierz współczynników korelacji wybranych podmiotów branży kryptoaktywów">
+<p>Rys 4. Rzutowanie danych klastrowych na oś czasu dla kryptoaktywa Cardano
+<img src="/img/rzutowanie_hdbscan_cardano.jpg" alt="Rzutowanie danych klastrowych na oś czasu dla Cardano">
 Źródło: Opracowanie własne</p>
 
 </br>
 
-<p>Z drugiej strony, analiza wykazała brak korelacji pomiędzy spółkami Canaan Inc, Riot Blockchain, Coinbase, a tokenami gry Axie Infinity, która stanowi zupełnie odrębny segment branży kryptoaktywów.
-Korelacja spółki Coinbase z pozostałymi podmiotami również pozostaje słaba w badanym okresie.
-Analiza regresji dla spółek o najwyższym stopniu korelacji, Canaan Inc i Riot Blockchain również wykazuje jedynie umiarkowany związek pomiędzy spółkami, z dużym rozproszeniem danych.</p>
-
-</br>
-
-<p>Rys 3. Regresja liniowa spółek Canaan Inc i Riot Blockchain wyróżniejących się najwyższym poziomiem korelacji spośród badanych podmiotów
-<img src="/img/Korelacja_regresja_liniowa.jpg" alt="Regresja liniowa spółek o najwyższej korelacji">
+<p>Rys 5. Wykres kursów Cardano do Dolara
+<img src="/img/wykres_cardano.jpg" alt="Wykres przedstawiający kurs Cardano do Dolara">
 Źródło: Opracowanie własne</p>
 
 </br>
 
+<p>Jak można zauważyć z powyższych wykresów, obliczone siedem klastrów reprezentujących fazy zmienności kursów kryptoaktywów znalazło swoje odzwierciedlenie w faktycznych kursach kryptowalut. W tym przykładzie fazy te zostały rzutowane na wykres kursów Cardano. Niemniej można je rzutować dla wszystkich 13 kryptoaktywów wziętych do badań. Należy wziąć pod uwagę, że w niektórych przypadkach brak ciągłości pomiędzy niektórymi fazami, wynikająca z rzutowania klastrów na oś czasu została ukazana w formie linii prostej. Taka sytuacja ma miejsca w przypadku klastrów o kolorze fioletowym oraz jasno brązowym.</p>
+
+</br>
+
+<p>Według analizy metodą HDBSCAN, obecnie kursy znajdują się w fazie największej zmienności oznaczonej kolorem jasno brązowym.
+Fazy o najmniejszej zmienności zostały ukazane za pomocą kolorów pomarańczowy, niebieski, zielony oraz czerwony. Fazy o średniej zmienności zostały ukazane kolorem różowym.</p>
 <h3 id="konkluzja">Konkluzja</h3>
-<p>Wyniki badań pokazują, że istnieją podmioty, których dzienne stopy zwrotu nie są ze sobą skorelowane. Więc pomimo ogólnego poglądu, że cały rynek kryptoaktywów jest ze sobą silnie skorelowany, wydaje się być możliwe utworzenie portfela o znaczącej dywersyfikacji tylko w obszarze branży krypto.</p>
+<p>Na podstawie przeprowadzonych badań i pozyskanych wyników w formie klastrów danych rzutowanych na oś czasu dla blockchainu Cardano, można wywnioskować, że obecna faza zmienności kursów należy do grupy o największej zmienności. Jest to też jedna z najbardziej ryzykownych faz zmienności. Patrząc retrospektywnie, najbardziej stosownymi fazami do zakupu kryptoaktywów są fazy o kolorach pomarańczowy, niebieski, zielony, czerwony, a nawet różowy.
+W obecnej sytuacji należy zachować dużą ostrożność w podejmowaniu decyzji inwestycyjnych.</p>
+<p>Można argumentować, że doświadczony analityk mógłby dojść do podobnych konkluzji bez potrzeby użycia tak zaawansowanych narzędzi uczenia maszynowego. Uważamy jednak, że naukowe podejście do analizy przebiegu zmienności kursów, systematyzuje proces podejmowania decyzji, a zaprzęgnięcie do tego metod HDBSCAN i PCA może służyć to automatyzacji tego procesu.</p>
 <blockquote>
-<p>Dywersyfikacja w różne dziedziny branży kryptoaktywów jest kluczem do zrównoważonego portfela</p>
+<p>Metoda HDBSCAN w połączeniu z metodą PCA mogą stanowić bardzo silne narzędzie analizy zmienności kursów kryptoaktywów.</p>
 </blockquote>
+<p>Literatura:</p>
+<p>Lemus G. 2017, QMA FREXIT Observations, [Dostęp:] <a href="https://drive.google.com/file/d/1SEbOM9TSKy3VMrrJMIMDpKaXuBRcspG6/view">https://drive.google.com/file/d/1SEbOM9TSKy3VMrrJMIMDpKaXuBRcspG6/view</a></p>
+<p>Lemus G. 2018, Can AI identify a Financial Bubble?, [Dostęp:] <a href="https://medium.datadriveninvestor.com/can-ai-identify-a-financial-bubble-5c64cca809e8">https://medium.datadriveninvestor.com/can-ai-identify-a-financial-bubble-5c64cca809e8</a></p>
+<p>Lemus G. 2018, Rates Clustering, [Dostęp:] <a href="https://lamatuk.medium.com/rates-clustering-611a3af9b294">https://lamatuk.medium.com/rates-clustering-611a3af9b294</a></p>
 </div>
         <hr class="py-2">
         <aside id="meta">
@@ -292,21 +355,14 @@ Analiza regresji dla spółek o najwyższym stopniu korelacji, Canaan Inc i Riot
             <div class="grid grid-cols-2">
                 <div class="col-span-1">
                     
-                    <a class="previous lg:text-2xl" href="https://hossabessa.com/post/wycena_uniswap_sushiswap_coinbase/">
+                    <a class="previous lg:text-2xl" href="https://hossabessa.com/post/cardano_a_polkadot_r%C3%B3%C5%BCnice/">
                         <div
                             class="transition-colors duration-300 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
-                            <span class="icon-keyboard_arrow_left"></span> Porównanie wyceny Uniswap, Sushiswap, Coinbase
+                            <span class="icon-keyboard_arrow_left"></span> Rożnice pomiędzy Cardano a Polkadot
                         </div>
                     </a>
                     
                 </div>
-                
-                <a class="next lg:text-2xl" href="https://hossabessa.com/post/cardano_a_polkadot_r%C3%B3%C5%BCnice/">
-                    <div
-                        class="transition-colors duration-300 col-span-1 border border-gray-600 hover:border-black h-auto m-3 text-center py-3 lg:py-1">
-                        Rożnice pomiędzy Cardano a Polkadot <span class="icon-keyboard_arrow_right"></span>
-                    </div>
-                </a>
                 
             </div>
         </aside>
@@ -432,6 +488,33 @@ Analiza regresji dla spółek o najwyższym stopniu korelacji, Canaan Inc i Riot
     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Najnowsze</p>
     <div class="mx-6">
         
+        <a href="/post/sytuacja_kryptowaluty_lipiec_poczatek_2021/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Sytuacja na rynku kryptowalut</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time><span class="icon-access_time mr-1"></span>2021/07/03</time>
+                    </p>
+                </div>
+            </div>
+        <a href="/post/analiza_rynkowa_kryptowalut/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time><span class="icon-access_time mr-1"></span>2021/09/07</time>
+                    </p>
+                </div>
+            </div>
+        <a href="/post/cardano_a_polkadot_r%C3%B3%C5%BCnice/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Rożnice pomiędzy Cardano a Polkadot</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time><span class="icon-access_time mr-1"></span>2021/08/08</time>
+                    </p>
+                </div>
+            </div>
         <a href="/post/wycena_uniswap_sushiswap_coinbase/" class="">
             <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
                 <div class="px-2">
@@ -447,33 +530,6 @@ Analiza regresji dla spółek o najwyższym stopniu korelacji, Canaan Inc i Riot
                     <div class="text-gray-900 font-bold text-xl dark:text-white">Co to jest Cardano?</div>
                     <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
                         <time><span class="icon-access_time mr-1"></span>2021/07/09</time>
-                    </p>
-                </div>
-            </div>
-        <a href="/post/co_to_jest_dao/" class="">
-            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">Co to jest DAO?</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2021/07/05</time>
-                    </p>
-                </div>
-            </div>
-        <a href="/post/analiza_rynkowa_kryptowalut/" class="">
-            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2021/09/07</time>
-                    </p>
-                </div>
-            </div>
-        <a href="/post/korelacja_axie_infinity/" class="">
-            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">Korelacja wybranych spółek branży krypto oraz Axie Infinity</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2021/07/27</time>
                     </p>
                 </div>
             </div>
