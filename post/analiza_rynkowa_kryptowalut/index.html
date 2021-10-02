@@ -13,12 +13,12 @@
   gtag('config', 'G-X91DT6MPHX');
 </script>
 
-<title>Hossa Bessa | Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</title>
+<title>Hossa Bessa | Klasyfikacja faz rynkowych kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     
-    <meta name="description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN wspomaganej Principal Component Analisys" />
-    <meta name="keywords" content="Blockchain, Python, Uczenie Maszynowe, HDBSCAN, PCA, Principal Component Analysis, Fazy Rynkowe, Bitcoin, Kryptowaluty" />
+    <meta name="description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN, wspomaganej metodą Principal Component Analisys" />
+    <meta name="keywords" content="Blockchain, Python, Uczenie Maszynowe, HDBSCAN, PCA, Principal Component Analysis, Fazy Rynkowe, Bitcoin, Kryptowaluty, Cardano, Bitcoin, Ethereum" />
     
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -27,7 +27,7 @@
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Hossa Bessa | Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA" />
+    <meta property="og:title" content="Hossa Bessa | Klasyfikacja faz rynkowych kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA" />
     
     
         
@@ -40,7 +40,7 @@
 
 
 <meta property="og:site_name" content="Hossa Bessa">
-<meta property="og:description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN wspomaganej Principal Component Analisys">
+<meta property="og:description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN, wspomaganej metodą Principal Component Analisys">
 <meta property="og:url" content="https://hossabessa.com/post/analiza_rynkowa_kryptowalut/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -49,7 +49,7 @@
 
 <link rel="canonical" href="https://hossabessa.com/post/analiza_rynkowa_kryptowalut/">
 
-<meta name="twitter:description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN wspomaganej Principal Component Analisys">
+<meta name="twitter:description" content="Klasyfikacja faz rynkowych metodą uczenia maszynowego HDBSCAN, wspomaganej metodą Principal Component Analisys">
 <meta property="article:published_time" content="2021-09-07T00:00:00&#43;00:00">
 <meta property="article:updated_time" content="2021-09-07T00:00:00&#43;00:00">
 
@@ -158,7 +158,7 @@
             <div class="lg:mx-5">
 <div class="grid grid-cols-3 gap-4">
     <div class="bg-white col-span-3 lg:col-span-2 p-5 dark:bg-warmgray-900 dark:text-white">
-        <h1 class="title text-4xl">Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</h1>
+        <h1 class="title text-4xl">Klasyfikacja faz rynkowych kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</h1>
         <aside id="meta">
             <div>
                 <section>
@@ -181,11 +181,11 @@
         
         <img class="py-4" src="https://hossabessa.com/img/First_Page.jpg">
         
-        <div class="content mt-5"><h2 id="klasyfikacja-faz-rynku-kryptowalut-metodami-hdbscan-i-pca">Klasyfikacja faz rynku kryptowalut metodami HDBSCAN i PCA</h2>
+        <div class="content mt-5"><h2 id="klasyfikacja-faz-rynkowych-kryptowalut-metodami-hdbscan-i-pca">Klasyfikacja faz rynkowych kryptowalut metodami HDBSCAN i PCA</h2>
 <h3 id="wstęp">Wstęp</h3>
-<p>Analitycy rynkowi zaprzęgają rozmaite metody statystyczne do klasyfikacji różnych faz rynkowych w celu opracowania strategii inwestycyjnych dla rozmaitych aktywów finansowych.
-Traderzy giełdowi zazwyczaj posiadają cały arsenał strategii finansowych (wzrost, spłaszczenie, motyle), które stosują w zależności od aktualnego reżimu stóp procentowych (czyli sytuacji, w której Bank Centralny łagodzi lub zaostrza politykę monetarną). W celu identyfikacji aktualnej polityki stóp procentowych, analitycy finansowi zazwyczaj grupują różne sygnały finansowe, a następnie porównują je z szeregami czasowymi aktywów finansowych.
-Uważamy, że podobną analizę można zastosować do zmian kursów kryptoaktywów w celu określenia aktualnej fazy zmienności kursów rynkowych.</p>
+<p>Analitycy rynkowi zaprzęgają rozmaite metody statystyczne do klasyfikacji faz rynkowych w celu opracowania strategii inwestycyjnych dla różnych aktywów finansowych.
+Traderzy giełdowi zazwyczaj posiadają cały arsenał strategii finansowych (wzrost, spłaszczenie, motyle), które stosują w zależności od aktualnego reżimu stóp procentowych (czyli sytuacji, w której Bank Centralny łagodzi lub zaostrza politykę monetarną). W celu identyfikacji aktualnej polityki stóp procentowych, analitycy finansowi zazwyczaj grupują różne sygnały finansowe, a następnie porównują je z szeregami czasowymi analizowanych aktywów finansowych.
+Uważamy, że podobną analizę można zastosować do zmian kursów kryptoaktywów w celu określenia aktualnej fazy zmienności kursów rynkowych i ułatwienia decyzji inwestycyjnych.</p>
 
 </br>
 
@@ -199,9 +199,9 @@ Uważamy, że podobną analizę można zastosować do zmian kursów kryptoaktyw�
 <p>Celem opracowania jest próba sklasyfikowania różnych faz rynkowych za pomocą rygorystycznej metody uczenia maszynowego nienadzorowanego- HDBSCAN (unsupervised machine learning) i PCA - Principal Component Analisys, oraz określenia obecnie występującej fazy dla grupy kryptoaktywów.</p>
 <h3 id="metodyka">Metodyka</h3>
 <p>Pierwsza część tego artykułu została wykonana metodą opisową. Druga część, to zastosowanie metody uczenia maszynowego HDBSCAN do klasyfikacji faz rynkowych określających stopień zmienności kursów. HDBSCAN wykorzystuje uczenie maszynowe nienadzorowane do znajdowania klastrów lub gęstych regionów zbioru danych.
-Poprzez uczenie nienadzorowane HDBSCAN próbuje odkryć wzorce w zestawie pól wejściowych. Rekordy są pogrupowane w taki sposób, że te znajdujące się w tej samej grupie lub klastrze są do siebie podobne, ale rekordy w różnych grupach pozostają odmienne. Algorytm HDBSCAN postrzega klastry jako obszary o dużej gęstości oddzielone obszarami o małej gęstości. Ze względu na ten dość ogólny pogląd, gromady znalezione przez HDBSCAN mogą mieć dowolny kształt, w przeciwieństwie do k-średnich, które zakładają, że gromady mają kształt wypukły. Zaznaczono również punkty odstające, które leżą samotnie w regionach o niskiej gęstości. W przeciwieństwie do prostej metody grupowania jaką jest metoda k-średnich, w HDBSCAN nie trzeba z góry zakładać liczby grup. Należy jednak określić minimalną wielkość klastra.</p>
-<p>Dodatkową metodą pomocniczą wykorzystaną do przeprowadzenia badań jest PCA - Principal Component Analysis. PCA jest metodą statystyczną stosowaną do zmniejszenia liczby zmiennych w zestawie danych. Jest to metoda redukcji wymiarów, która jest często stosowana do zmniejszenia wymiarowości dużych zestawów danych, przekształcając duży zestaw zmiennych w mniejszy, który nadal zawiera większość informacji jak w dużym zestawie. Odbywa się to poprzez łączenie wysoce skorelowanych zmiennych razem.
-Zmniejszenie liczby zmiennych w zestawie danych naturalnie odbywa się kosztem dokładności, ale cała sztuka w redukcji wymiarowości polega na oddanie części dokładności w zamian za prostotę. Ponieważ mniejsze zestawy danych są łatwiejsze do eksploracji i wizualizacji oraz znacznie ułatwiają i przyspieszają analizę danych dla algorytmów uczenia maszynowego bez dodatkowych zmiennych do przetworzenia.</p>
+Poprzez uczenie nienadzorowane HDBSCAN próbuje odkryć wzorce w zestawie pól wejściowych. Rekordy są nastepnie grupowane w taki sposób, że te znajdujące się w tym samym klastrze są do siebie podobne, ale rekordy w różnych klastrach pozostają odmienne. Algorytm HDBSCAN postrzega klastry jako obszary o dużej gęstości oddzielone obszarami o małej gęstości. Z tego względu, gromady znalezione przez HDBSCAN mogą mieć dowolny kształt, w przeciwieństwie na przykład do metody k-średnich, które zakładają, że gromady mają kształt wypukły. Algorytm HDBSCAN znajduje również punkty odstające, które leżą samotnie w regionach o niskiej gęstości. W przeciwieństwie do prostej metody grupowania jaką jest metoda k-średnich, w HDBSCAN nie trzeba z góry zakładać liczby grup. Należy jednak określić minimalną wielkość klastra.</p>
+<p>Dodatkową metodą pomocniczą wykorzystaną do przeprowadzenia badań jest PCA - Principal Component Analysis. PCA jest metodą statystyczną stosowaną do zmniejszenia liczby zmiennych w zestawie danych. Jest to metoda redukcji wymiarów, która jest często używana do zmniejszenia wymiarowości dużych zestawów danych, przekształcając duży zestaw zmiennych w mniejszy, który nadal zawiera większość informacji jak w dużym zestawie. Odbywa się to poprzez łączenie wysoce skorelowanych zmiennych razem.
+Zmniejszenie liczby zmiennych w zestawie danych naturalnie odbywa się kosztem dokładności, ale cała sztuka w redukcji wymiarowości polega na oddaniu części dokładności w zamian za prostotę. Metodą PCA stosuje się po to, gdyż mniejsze zestawy danych są łatwiejsze do eksploracji i wizualizacji oraz znacznie ułatwiają i przyspieszają analizę danych dla algorytmów uczenia maszynowego bez dodatkowych zmiennych do przetworzenia.</p>
 
 </br>
 
@@ -294,7 +294,7 @@ Zmniejszenie liczby zmiennych w zestawie danych naturalnie odbywa się kosztem d
 <p>Źródło: Opracowanie własne</p>
 <h4 id="wyniki">Wyniki</h4>
 <p>Identyfikacja zmian faz zmienności kursów kryptoaktywów.</p>
-<p>W wyniku analizy skupień metodą HDBSCAN i PCA uzyskano następujący ciąg liczb oznaczających poszczególne klastry.
+<p>W wyniku analizy skupień metodą HDBSCAN i PCA, uzyskano następujący ciąg liczb oznaczających poszczególne klastry.
 {-1, 0, 1, 2, 3, 4, 5, 6}</p>
 <p>Znaleziono 7 klastrów oraz szereg danych odstających nie przyporządkowanych do żadnych klastrów opisanych za pomocą liczby -1. Na wykresie są one oznaczone kolorem jasno szarym.</p>
 
@@ -322,14 +322,14 @@ Zmniejszenie liczby zmiennych w zestawie danych naturalnie odbywa się kosztem d
 
 </br>
 
-<p>Jak można zauważyć z powyższych wykresów, obliczone siedem klastrów reprezentujących fazy zmienności kursów kryptoaktywów znalazło swoje odzwierciedlenie w faktycznych kursach kryptowalut. W tym przykładzie fazy te zostały rzutowane na wykres kursów Cardano. Niemniej można je rzutować dla wszystkich 13 kryptoaktywów wziętych do badań. Należy wziąć pod uwagę, że w niektórych przypadkach brak ciągłości pomiędzy niektórymi fazami, wynikająca z rzutowania klastrów na oś czasu została ukazana w formie linii prostej. Taka sytuacja ma miejsca w przypadku klastrów o kolorze fioletowym oraz jasno brązowym.</p>
+<p>Jak można zauważyć z powyższych wykresów, obliczone siedem klastrów reprezentujących fazy zmienności kursów kryptoaktywów znalazło swoje odzwierciedlenie w faktycznych kursach kryptowalut. W tym przykładzie fazy te zostały rzutowane na wykres kursu Cardano. Niemniej można je rzutować dla wszystkich 13 kryptoaktywów wziętych do badań. Należy wziąć pod uwagę, że w niektórych przypadkach brak ciągłości pomiędzy niektórymi fazami, wynikająca z rzutowania klastrów na oś czasu została ukazana w formie linii prostej. Taka sytuacja ma miejsca w przypadku klastrów o kolorze fioletowym oraz jasno brązowym.</p>
 
 </br>
 
 <p>Według analizy metodą HDBSCAN, obecnie kursy znajdują się w fazie największej zmienności oznaczonej kolorem jasno brązowym.
 Fazy o najmniejszej zmienności zostały ukazane za pomocą kolorów pomarańczowy, niebieski, zielony oraz czerwony. Fazy o średniej zmienności zostały ukazane kolorem różowym.</p>
 <h3 id="konkluzja">Konkluzja</h3>
-<p>Na podstawie przeprowadzonych badań i pozyskanych wyników w formie klastrów danych rzutowanych na oś czasu dla blockchainu Cardano, można wywnioskować, że obecna faza zmienności kursów należy do grupy o największej zmienności. Jest to też jedna z najbardziej ryzykownych faz zmienności. Patrząc retrospektywnie, najbardziej stosownymi fazami do zakupu kryptoaktywów są fazy o kolorach pomarańczowy, niebieski, zielony, czerwony, a nawet różowy.
+<p>Na podstawie przeprowadzonych badań i pozyskanych wyników w formie klastrów danych rzutowanych na oś czasu dla blockchainu Cardano, można wywnioskować, że ostatnia faza zmienności kursów należy do grupy o największej zmienności. Jest to też jedna z najbardziej ryzykownych faz zmienności. Patrząc retrospektywnie, najbardziej stosownymi fazami do zakupu kryptoaktywów są fazy o kolorach pomarańczowy, niebieski, zielony, czerwony, a nawet różowy.
 W obecnej sytuacji należy zachować dużą ostrożność w podejmowaniu decyzji inwestycyjnych.</p>
 <p>Można argumentować, że doświadczony analityk mógłby dojść do podobnych konkluzji bez potrzeby użycia tak zaawansowanych narzędzi uczenia maszynowego. Uważamy jednak, że naukowe podejście do analizy przebiegu zmienności kursów, systematyzuje proces podejmowania decyzji, a zaprzęgnięcie do tego metod HDBSCAN i PCA może służyć to automatyzacji tego procesu.</p>
 <blockquote>
@@ -488,6 +488,33 @@ W obecnej sytuacji należy zachować dużą ostrożność w podejmowaniu decyzji
     <p class="text-xl text-center text-gray-700 py-5 dark:text-gray-300">Najnowsze</p>
     <div class="mx-6">
         
+        <a href="/post/korelacja_axie_infinity/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Korelacja wybranych spółek branży krypto oraz Axie Infinity</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time><span class="icon-access_time mr-1"></span>2021/07/27</time>
+                    </p>
+                </div>
+            </div>
+        <a href="/post/analiza_rynkowa_kryptowalut/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Klasyfikacja faz rynkowych kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time><span class="icon-access_time mr-1"></span>2021/09/07</time>
+                    </p>
+                </div>
+            </div>
+        <a href="/post/co_to_jest_dao/" class="">
+            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
+                <div class="px-2">
+                    <div class="text-gray-900 font-bold text-xl dark:text-white">Co to jest DAO?</div>
+                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
+                        <time><span class="icon-access_time mr-1"></span>2021/07/05</time>
+                    </p>
+                </div>
+            </div>
         <a href="/post/sytuacja_kryptowaluty_lipiec_poczatek_2021/" class="">
             <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
                 <div class="px-2">
@@ -497,39 +524,12 @@ W obecnej sytuacji należy zachować dużą ostrożność w podejmowaniu decyzji
                     </p>
                 </div>
             </div>
-        <a href="/post/analiza_rynkowa_kryptowalut/" class="">
-            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2021/09/07</time>
-                    </p>
-                </div>
-            </div>
         <a href="/post/cardano_a_polkadot_r%C3%B3%C5%BCnice/" class="">
             <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
                 <div class="px-2">
                     <div class="text-gray-900 font-bold text-xl dark:text-white">Rożnice pomiędzy Cardano a Polkadot</div>
                     <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
                         <time><span class="icon-access_time mr-1"></span>2021/08/08</time>
-                    </p>
-                </div>
-            </div>
-        <a href="/post/wycena_uniswap_sushiswap_coinbase/" class="">
-            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">Porównanie wyceny Uniswap, Sushiswap, Coinbase</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2021/07/14</time>
-                    </p>
-                </div>
-            </div>
-        <a href="/post/co_to_jest_cardano/" class="">
-            <div class="w-full block mt-3 bg-white hover:bg-gray-100 duration-200 dark:bg-warmgray-900 dark:text-gray-200 dark:hover:bg-warmgray-800">
-                <div class="px-2">
-                    <div class="text-gray-900 font-bold text-xl dark:text-white">Co to jest Cardano?</div>
-                    <p class="text-sm text-gray-600 flex items-center pb-1 dark:text-gray-400">
-                        <time><span class="icon-access_time mr-1"></span>2021/07/09</time>
                     </p>
                 </div>
             </div>

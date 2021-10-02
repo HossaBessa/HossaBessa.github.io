@@ -8,12 +8,12 @@
     <language>pl</language>
     <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hossabessa.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Klasyfikacja faz rynku kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</title>
+      <title>Klasyfikacja faz rynkowych kryptowalut metodą uczenia maszynowego HDBSCAN oraz redukcji wymiarów PCA</title>
       <link>https://hossabessa.com/post/analiza_rynkowa_kryptowalut/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://hossabessa.com/post/analiza_rynkowa_kryptowalut/</guid>
-      <description>Klasyfikacja faz rynku kryptowalut metodami HDBSCAN i PCA Wstęp Analitycy rynkowi zaprzęgają rozmaite metody statystyczne do klasyfikacji różnych faz rynkowych w celu opracowania strategii inwestycyjnych dla rozmaitych aktywów finansowych. Traderzy giełdowi zazwyczaj posiadają cały arsenał strategii finansowych (wzrost, spłaszczenie, motyle), które stosują w zależności od aktualnego reżimu stóp procentowych (czyli sytuacji, w której Bank Centralny łagodzi lub zaostrza politykę monetarną). W celu identyfikacji aktualnej polityki stóp procentowych, analitycy finansowi zazwyczaj grupują różne sygnały finansowe, a następnie porównują je z szeregami czasowymi aktywów finansowych.</description>
+      <description>Klasyfikacja faz rynkowych kryptowalut metodami HDBSCAN i PCA Wstęp Analitycy rynkowi zaprzęgają rozmaite metody statystyczne do klasyfikacji faz rynkowych w celu opracowania strategii inwestycyjnych dla różnych aktywów finansowych. Traderzy giełdowi zazwyczaj posiadają cały arsenał strategii finansowych (wzrost, spłaszczenie, motyle), które stosują w zależności od aktualnego reżimu stóp procentowych (czyli sytuacji, w której Bank Centralny łagodzi lub zaostrza politykę monetarną). W celu identyfikacji aktualnej polityki stóp procentowych, analitycy finansowi zazwyczaj grupują różne sygnały finansowe, a następnie porównują je z szeregami czasowymi analizowanych aktywów finansowych.</description>
     </item>
     
     <item>
